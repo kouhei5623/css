@@ -31,6 +31,8 @@ button:hover{ cursor: pointer; }
 * { box-sizing: border-box; }
 /* 余白 */
 .wrap{ max-width: 1100px; margin: 0 auto; padding: 0 2%; }
+/* 画像余白消し */
+img{ display: block; vertical-align: bottom; }
 /* iOSでのデフォルトスタイルをリセット */
 input[type="submit"], input[type="button"], select { border-radius: 0; -webkit-box-sizing: content-box; -webkit-appearance: button; appearance: button; border: none; box-sizing: border-box; cursor: pointer; }
 input[type="submit"]::-webkit-search-decoration, input[type="button"]::-webkit-search-decoration, select::-webkit-search-decoration { display: none; }
